@@ -91,13 +91,25 @@ nav ul li{
 
 /* Speakers section */
 
+.person{
+    margin: 1rem;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    
+}
+
+
+
 .speakersSecContainer{
-    margin: 0 4rem;
+    max-width: 90%;
+    margin: auto;
 }
 
 .speakersSecContainer h2{
+    margin: 2.5rem 0 1rem 0;
     padding: 2rem 0;
-    font-size: 2.3rem;
+    font-size: 3.3rem;
     text-align: center;
 }
 
@@ -107,15 +119,18 @@ nav ul li{
     grid-column: auto;
     
     grid-template-columns: repeat(2,1fr);
+    gap: 0;
 }
 
 .speakerDataContainer img{
-    width: auto;
-    height: fit-content;
+    width: 100%;
+    height: 350px;
+    display: block;
+    object-fit: cover;
 }
 
 .speakersInfo {
-    margin: 12px;
+    margin: 12px 0 12px 12px;
 }
 
 .speakersInfo .create{
@@ -159,10 +174,13 @@ nav ul li{
     max-width: 70%;
     margin: 0 auto;
     justify-content:center ;
-    align-items: center
-    
-    
-    ;
+    align-items: center;
+}
+
+
+
+.priceChildMiddle ul li::marker {
+    color: yellow;
 }
 
 .priceContainer1, .priceContainer2, .priceContainer3 {
@@ -263,6 +281,8 @@ nav ul li{
 .section-heading span{
     color:#3ddcff;
     letter-spacing:2px;
+    font-size: 2.5rem;
+
     font-weight:bold;
 }
 
