@@ -394,7 +394,7 @@ footer{
     justify-content: space-between;
     padding: 0 0 2.5rem 0;
     font-size: 1.5rem;
-    color: whitesmoke;
+    color: rgba(0, 255, 255, 0.658);
 }
 
 
@@ -405,3 +405,11 @@ footer{
     margin: 0 0 0 auto;
     flex: 2;
 }
+
+.copyrightRight p a{
+    text-decoration: none;
+    color: rgba(0, 255, 255, 0.658);
+}
+
+
+/* end footer section */
