@@ -1,3 +1,229 @@
-body {
-    background-color: pink;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
+
+/* header container */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+/* header nav container */
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+/* header button */
+
+.commonBtn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+}
+
+/* The end of header section */
+
+
+
+
+
+
+/* Main page */
+
+
+
+/* Hero section */
+
+.mainPageContainer{
+    background-image: url(./photos/banner.jpg);
+    text-align: center;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainPageTextContainer{
+    color: white;
+    max-width: 50%;
+    margin: 8rem auto 0 auto ;
+}
+
+
+.mainPageTextContainer h1{
+    font-size: 4.1rem;
+    margin-bottom: 10px;
+    
+    
+}
+
+.mainPageTextContainer p{
+    font-size: 1.2rem;
+}
+
+
+/* main page button */
+
+.buttonContainer{
+    margin-bottom: 3.8rem;
+
+}
+
+/* end hero section */
+
+
+
+/* Speakers section */
+
+.speakersSecContainer{
+    margin: 0 4rem;
+}
+
+.speakersSecContainer h2{
+    padding: 2rem 0;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+
+.speakerDataContainer {
+    display: grid;
+    grid-column: auto;
+    
+    grid-template-columns: repeat(2,1fr);
+}
+
+.speakerDataContainer img{
+    width: auto;
+    height: fit-content;
+}
+
+.speakersInfo {
+    margin: 12px;
+}
+
+.speakersInfo .create{
+    color: blue;
+    font-size: 12px;
+
+}
+
+.speakersInfo .name {
+    font-weight: 700;
+
+}
+
+.speakersInfo .passion {
+    font-size: 12px;
+    color: rgba(58, 53, 53, 0.521);
+}
+
+/* End speakers section */
+
+
+
+
+.priceSecTop {
+    text-align: center;
+}
+
+.priceCardparent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 70%;
+    margin: 0 auto;
+    justify-content:center ;
+    align-items: center
+    
+    
+    ;
+}
+
+.priceContainer1, .priceContainer2, .priceContainer3 {
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 10px 1rem;
+
+}
+
+.priceContainer1{
+    border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.priceContainer1 button{
+    color: blue;
+    border: 1px solid blue;
+
+}
+
+.priceContainer2 {
+    background-color: black;
+    color: white;
+}
+
+.priceContainer2 button {
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.priceContainer3{
+    background-color: pink;
+
+}
+
+.priceContainer3 button{
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+
+.priceChildTop h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.priceChildTop p {
+    font-size: 11px;
+    color: rgba(55, 112, 112, 0.699);
+}
+
+
+.priceChildMiddle {
+    padding: 1.5rem 0 1.2rem 1.1rem ;
+    font-size: 12px;
+
+    
+}
+
+.priceChildMiddle ul li {
+    line-height: 1.7rem;
+    font-size: 13px;
+}
+
+
+
+.priceChildButtom button{
+    border-radius: 5px;
+    width: 97%;
+    text-align: center;
+    padding: 6px 0;
+}
+

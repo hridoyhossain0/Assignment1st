@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -47,7 +50,7 @@
         <section class="mainPageContainer">
 
 
-            <div class="textContainer">
+            <div class="mainPageTextContainer">
                 <h1>Code. Connect. Create</h1>
                 <p>Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of cutting-edge talks, hands-on workshops, and meaningful connections.</p>
             </div>
@@ -79,55 +82,55 @@
 
 
                 <!-- person 1 Data -->
-                <div class="person1">
+                <div class="person">
 
                     <img src="./photos/andrej.png" alt="Andrej Karpathy">
-                    <div>
-                        <p>AI / ML</p>
-                        <p>Andrej Karpathy</p>
-                        <p>Pretraining team, Anthropic</p>
+                    <div class="speakersInfo">
+                        <p class="create">AI / ML</p>
+                        <p class="name">Andrej Karpathy</p>
+                        <p class="passion">Pretraining team, Anthropic</p>
                     </div>
 
                 </div>
 
                 <!-- person 2 data -->
-                <div class="person2">
+                <div class="person">
 
                     <img src="./photos/demis.png" alt="Demis Hassabis">
-                    <div>
-                        <p>Cloud & DevOps</p>
-                        <p>Demis Hassabis</p>
-                        <p>Co-Founder and CEO, Google DeepMind</p>
+                    <div class="speakersInfo">
+                        <p class="create">Cloud & DevOps</p>
+                        <p class="name">Demis Hassabis</p>
+                        <p class="passion">Co-Founder and CEO, Google DeepMind</p>
                     </div>
 
                 </div>
 
                 <!-- person 3 data -->
-                <div class="person3">
+                <div class="person">
 
                     <img src="./photos/gary.png" alt="Gary Marcus Image">
-                    <div>
-                        <p>Frontend</p>
-                        <p>Gary Marcus</p>
-                        <p>Staff Engineer, Vercel</p>
+                    <div class="speakersInfo">
+                        <p class="create">Frontend</p>
+                        <p class="name">Gary Marcus</p>
+                        <p class="passion">Staff Engineer, Vercel</p>
                     </div>
 
                 </div>
 
                 <!-- person 4 data -->
-                <div class="person4">
+                <div class="person">
 
                     <img src="./photos/mustafa.png" alt="Mustafa Suleyman Image">
-                    <div>
-                        <p>Security</p>
-                        <p>Mustafa Suleyman</p>
-                        <p>CEO of Microsoft AI</p>
+                    <div class="speakersInfo">
+                        <p class="create">Security</p>
+                        <p class="name">Mustafa Suleyman</p>
+                        <p class="passion">CEO of Microsoft AI</p>
                     </div>
 
                 </div>
 
-                <!-- person 4 data -->
-                <div class="person4">
+                <!-- person 5 data -->
+                <!-- <div class="person5">
 
                     <img src="./photos/mark.png" alt="Mark Zuckerberg Image">
                     <div>
@@ -136,10 +139,10 @@
                         <p>CEO of Meta</p>
                     </div>
 
-                </div>
+                </div> -->
 
-                <!-- person 4 data -->
-                <div class="person4">
+                <!-- person 6 data -->
+                <!-- <div class="person6">
 
                     <img src="./photos/Bill.png" alt="Bill Gates Image">
                     <div>
@@ -148,7 +151,7 @@
                         <p>CO-founder of Microsoft</p>
                     </div>
 
-                </div>
+                </div> -->
 
 
             </div>
@@ -172,92 +175,100 @@
             </div>
 
 
-            <!-- price card 1-->
-            <div class="priceContainer1">
+            <div class="priceCardparent">
 
-                <div class="priceChildTop">
+                <!-- price card 1-->
+                <div class="priceContainer1">
 
-                    <p>Standard</p>
-                    <h2>$399</h2>
-                    <p>per person</p>
+                    <div class="priceChildTop">
+
+                        <p>Standard</p>
+                        <h2>$399</h2>
+                        <p>per person</p>
+                    </div>
+
+                    <div class="priceChildMiddle">
+
+                        <ul>
+                            <li>Access to all 3 conference days</li>
+                            <li>48 curated technical talks</li>
+                            <li>2 workshop sessions</li>
+                            <li>Networking lunch & coffee breaks</li>
+                            <li>Conference swag bag</li>
+                            <li>Digital recordings (30 days)</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="priceChildButtom">
+                        <button>Get Standard</button>
+                    </div>
+
                 </div>
 
-                <priceChildMiddle>
+                <!-- price card 2-->
+                <div class="priceContainer2">
 
-                    <ul>
-                        <li>Access to all 3 conference days</li>
-                        <li>48 curated technical talks</li>
-                        <li>2 workshop sessions</li>
-                        <li>Networking lunch & coffee breaks</li>
-                        <li>Conference swag bag</li>
-                        <li>Digital recordings (30 days)</li>
-                    </ul>
+                    <div class="priceChildTop">
+                        <p>Pro</p>
+                        <h2>$749</h2>
+                        <p>per person</p>
+                    </div>
 
-                </priceChildMiddle>
+                    <div class="priceChildMiddle">
 
-                <div class="priceChildButtom">
-                    <button>Get Standard</button>
+                        <ul>
+                            <li>Everything in Standard</li>
+                            <li>Unlimited workshop access</li>
+                            <li>Speaker meet & greet</li>
+                            <li>VIP networking dinner</li>
+                            <li>Lifetime recording access</li>
+                            <li>1-on-1 mentorship (30 min)</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="priceChildButtom">
+                        <button>Get Pro</button>
+                    </div>
+
                 </div>
+
+                <!-- price card 3-->
+                <div class="priceContainer3">
+
+                    <div class="priceChildTop">
+
+                        <p>Team</p>
+                        <h2>$5,999</h2>
+                        <p>up to 10 people</p>
+
+                    </div>
+
+                    <div class="priceChildMiddle">
+
+                        <ul>
+                            <li>Everything in Pro (10 seats)</li>
+                            <li>Dedicated team lounge access</li>
+                            <li>Private workshop booking</li>
+                            <li>Company logo on event page</li>
+                            <li>Recruitment booth (1 day)</li>
+                            <li>Priority customer support</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="priceChildButtom">
+                        <button>Contact Us</button>
+                    </div>
+
+                </div>
+
 
             </div>
 
-            <!-- price card 2-->
-            <div class="priceContainer2">
 
-                <div class="priceChildTop">
-                    <p>Pro</p>
-                    <h2>$749</h2>
-                    <p>per person</p>
-                </div>
-
-                <priceChildMiddle>
-
-                    <ul>
-                        <li>Everything in Standard</li>
-                        <li>Unlimited workshop access</li>
-                        <li>Speaker meet & greet</li>
-                        <li>VIP networking dinner</li>
-                        <li>Lifetime recording access</li>
-                        <li>1-on-1 mentorship (30 min)</li>
-                    </ul>
-
-                </priceChildMiddle>
-
-                <div class="priceChildButtom">
-                    <button>Get Pro</button>
-                </div>
-
-            </div>
-
-            <!-- price card 3-->
-            <div class="priceContainer3">
-
-                <div class="priceChildTop">
-
-                    <p>Team</p>
-                    <h2>$5,999</h2>
-                    <p>up to 10 people</p>
-
-                </div>
-
-                <priceChildMiddle>
-
-                    <ul>
-                        <li>Everything in Pro (10 seats)</li>
-                        <li>Dedicated team lounge access</li>
-                        <li>Private workshop booking</li>
-                        <li>Company logo on event page</li>
-                        <li>Recruitment booth (1 day)</li>
-                        <li>Priority customer support</li>
-                    </ul>
-
-                </priceChildMiddle>
-
-                <div class="priceChildButtom">
-                    <button>Contact Us</button>
-                </div>
-
-            </div>
+            
 
 
 
